@@ -24,6 +24,10 @@
 		B6B184631806ECAB0017D9EC /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B184621806ECAB0017D9EC /* SpriteKit.framework */; };
 		B6B184661806EE950017D9EC /* HelloScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B184651806EE950017D9EC /* HelloScene.m */; };
 		B6B184691806F0380017D9EC /* SpaceshipScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B184681806F0380017D9EC /* SpaceshipScene.m */; };
+		B6B1846C1807023E0017D9EC /* RainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B1846B1807023E0017D9EC /* RainScene.m */; };
+		B6B1847318070CFC0017D9EC /* RoboBrrdNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B1847218070CFC0017D9EC /* RoboBrrdNode.m */; };
+		B6B1847618076F7C0017D9EC /* RaindropNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B1847518076F7C0017D9EC /* RaindropNode.m */; };
+		B6B18478180785EC0017D9EC /* notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = B6B18477180785EC0017D9EC /* notes.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +65,13 @@
 		B6B184651806EE950017D9EC /* HelloScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloScene.m; sourceTree = "<group>"; };
 		B6B184671806F0380017D9EC /* SpaceshipScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceshipScene.h; sourceTree = "<group>"; };
 		B6B184681806F0380017D9EC /* SpaceshipScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceshipScene.m; sourceTree = "<group>"; };
+		B6B1846A1807023E0017D9EC /* RainScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RainScene.h; sourceTree = "<group>"; };
+		B6B1846B1807023E0017D9EC /* RainScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RainScene.m; sourceTree = "<group>"; };
+		B6B1847118070CFC0017D9EC /* RoboBrrdNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoboBrrdNode.h; sourceTree = "<group>"; };
+		B6B1847218070CFC0017D9EC /* RoboBrrdNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoboBrrdNode.m; sourceTree = "<group>"; };
+		B6B1847418076F7B0017D9EC /* RaindropNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RaindropNode.h; sourceTree = "<group>"; };
+		B6B1847518076F7C0017D9EC /* RaindropNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RaindropNode.m; sourceTree = "<group>"; };
+		B6B18477180785EC0017D9EC /* notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = notes.txt; path = Experiment58/notes.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +102,7 @@
 		B6B184221806EBA50017D9EC = {
 			isa = PBXGroup;
 			children = (
+				B6B18477180785EC0017D9EC /* notes.txt */,
 				B6B184341806EBA50017D9EC /* Experiment58 */,
 				B6B1844D1806EBA50017D9EC /* Experiment58Tests */,
 				B6B1842D1806EBA50017D9EC /* Frameworks */,
@@ -126,6 +138,12 @@
 				B6B1843E1806EBA50017D9EC /* AppDelegate.m */,
 				B6B1845D1806EBC20017D9EC /* MainViewController.h */,
 				B6B1845E1806EBC20017D9EC /* MainViewController.m */,
+				B6B1847118070CFC0017D9EC /* RoboBrrdNode.h */,
+				B6B1847218070CFC0017D9EC /* RoboBrrdNode.m */,
+				B6B1846A1807023E0017D9EC /* RainScene.h */,
+				B6B1846B1807023E0017D9EC /* RainScene.m */,
+				B6B1847418076F7B0017D9EC /* RaindropNode.h */,
+				B6B1847518076F7C0017D9EC /* RaindropNode.m */,
 				B6B1845F1806EBC20017D9EC /* MainViewController.xib */,
 				B6B184671806F0380017D9EC /* SpaceshipScene.h */,
 				B6B184681806F0380017D9EC /* SpaceshipScene.m */,
@@ -241,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6B18478180785EC0017D9EC /* notes.txt in Resources */,
 				B6B184391806EBA50017D9EC /* InfoPlist.strings in Resources */,
 				B6B184611806EBC20017D9EC /* MainViewController.xib in Resources */,
 				B6B184411806EBA50017D9EC /* Images.xcassets in Resources */,
@@ -263,9 +282,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6B1843F1806EBA50017D9EC /* AppDelegate.m in Sources */,
+				B6B1847318070CFC0017D9EC /* RoboBrrdNode.m in Sources */,
 				B6B184661806EE950017D9EC /* HelloScene.m in Sources */,
 				B6B184691806F0380017D9EC /* SpaceshipScene.m in Sources */,
 				B6B184601806EBC20017D9EC /* MainViewController.m in Sources */,
+				B6B1846C1807023E0017D9EC /* RainScene.m in Sources */,
+				B6B1847618076F7C0017D9EC /* RaindropNode.m in Sources */,
 				B6B1843B1806EBA50017D9EC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -469,6 +491,7 @@
 				B6B184591806EBA50017D9EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6B1845A1806EBA50017D9EC /* Build configuration list for PBXNativeTarget "Experiment58Tests" */ = {
 			isa = XCConfigurationList;
@@ -477,6 +500,7 @@
 				B6B1845C1806EBA50017D9EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

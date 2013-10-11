@@ -37,8 +37,11 @@
 
 - (void) viewWillAppear:(BOOL)animated {
     
-    HelloScene *hello = [[HelloScene alloc] initWithSize:CGSizeMake(1024, 768)];
-    [spriteView presentScene: hello];
+    //HelloScene *hello = [[HelloScene alloc] initWithSize:CGSizeMake(1024, 768)];
+    //[spriteView presentScene: hello];
+    
+    RainScene *rain = [[RainScene alloc] initWithSize:CGSizeMake(1024.0, 768.0)];
+    [spriteView presentScene:rain];
     
 }
 

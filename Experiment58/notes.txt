@@ -1,0 +1,9 @@
+
+oct. 10, 2013
+-------------
+need to make 5 or so sounds (really simple ones), to play when the rain falls on a robobrrd
+try and fade out the robobrrds when they leave the screen bounds
+eventually clean up rainscene (and remove other files)
+fix white on robobrrd sprite
+experiment with colours on robobrrd sprite
+sprite kit seems fun
